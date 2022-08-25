@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevagramCSharp", "DevagramCSharp\DevagramCSharp.csproj", "{DE0601CB-D9A0-4592-9825-9F643C54C356}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE0601CB-D9A0-4592-9825-9F643C54C356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE0601CB-D9A0-4592-9825-9F643C54C356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE0601CB-D9A0-4592-9825-9F643C54C356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE0601CB-D9A0-4592-9825-9F643C54C356}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F7926E6-AB9D-448D-9C3C-E9B0C89A5050}
+	EndGlobalSection
+EndGlobal
