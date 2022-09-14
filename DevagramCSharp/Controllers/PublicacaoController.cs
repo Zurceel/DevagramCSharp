@@ -33,7 +33,7 @@ namespace DevagramCSharp.Controllers
 						String.IsNullOrWhiteSpace(publicacaodto.Descricao))
 					{
 						_logger.LogError("A descricão está inválida.");
-						return BadRequest("Obrigatorio uma descricao.");
+						return BadRequest("Obrigatório uma descricao.");
 					}
 					if(publicacaodto.Foto == null)
 					{
@@ -55,7 +55,7 @@ namespace DevagramCSharp.Controllers
 				_logger.LogError("Ocorreu um erro na publicacão: " + ex.Message);
 				return StatusCode(StatusCodes.Status500InternalServerError, new ErrorRespostaDto()
 				{
-					Descricao = "Ocorreu um erro ao fazer o login",
+					Descricao = "Ocorreu um erro na publicação",
 					Status = StatusCodes.Status500InternalServerError
 				});
 			}
