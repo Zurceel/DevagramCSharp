@@ -8,5 +8,6 @@ namespace DevagramCSharp.Repository
 
 		public void Descurtir(Curtida curtida);
 		public Curtida GetCurtida(int idPulicacao, int idUsuario);
+		List<Curtida> GetCurtidaPorPublicacao(int idPublicacao);
 	}
 }
