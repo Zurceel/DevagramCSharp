@@ -9,5 +9,6 @@ namespace DevagramCSharp.Repository
 		public void Publicar (Publicacao publicacao);
 
 		List<PublicacaoFeedRespostaDto> GetPublicacoesFeedUsuario(int idUsuario);
+		int GetQtdePublicacoes(int idUsuario);
 	}
 }
